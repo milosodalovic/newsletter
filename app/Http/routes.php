@@ -27,5 +27,8 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::get('newsletters/signup', 'NewslettersController@register');
+    Route::post('newsletters/signup', 'NewslettersController@postRegister');
+    Route::get('newsletters/signup/confirm/{token}', 'NewslettersController@confirmEmail');
+
 });
