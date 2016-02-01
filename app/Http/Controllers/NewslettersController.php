@@ -27,12 +27,6 @@ class NewslettersController extends Controller
         return redirect()->back();
     }
 
-//    private function compileEmailTemplate($data)
-//    {
-//        $template = view()->file(app_path('Http/Templates/email.blade.php'), $data);
-//        return $template;
-//    }
-
     public function confirmEmail($token)
     {
         Subscription::whereToken($token)->firstOrFail()->confirmEmail();

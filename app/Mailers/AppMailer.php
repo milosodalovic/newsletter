@@ -29,9 +29,17 @@ class AppMailer {
         $this->data = compact('subscription');
 
         $this->deliver();
-
-
     }
+
+    public function sendEmailRejectionFor(Subscription $subscription)
+    {
+        $this->to = $subscription->email;
+        $this->view = 'email/reject';
+        $this->data = compact('subscription');
+
+        $this->deliver();
+    }
+
 
     public function deliver()
     {

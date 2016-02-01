@@ -3,6 +3,8 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+
 
 class Subscription extends Model {
 
@@ -13,7 +15,8 @@ class Subscription extends Model {
     {
         parent::boot();
 
-        static::creating(function($subscription) {
+        static::creating(function($subscription)
+        {
             $subscription->token = str_random(30);
         });
     }
