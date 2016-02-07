@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7533e079-27d3-4eb4-ae9c-ad95799efb3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/email/reject.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/head.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/scripts.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/signup2.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/SubscriptionRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/SubscriptionRequest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Mailers/AppMailer.php" afterPath="$PROJECT_DIR$/app/Mailers/AppMailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Subscription.php" afterPath="$PROJECT_DIR$/app/Subscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/list.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
     </list>
     <ignored path="newsletter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,14 +31,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SubscriptionRequest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/SubscriptionRequest.php">
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28444445">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="39" />
-              <folding>
-                <element signature="e#37#67#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.69">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,9 +57,7 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/errors/list.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/libs/sweetalert.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/Http/Flash.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/flash.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/confirm.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -70,14 +67,21 @@
         <option value="$PROJECT_DIR$/app/Http/Templates/email.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_01_25_230022_create_subscriptions_table.php" />
         <option value="$PROJECT_DIR$/resources/views/signup.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/list.blade.php" />
         <option value="$PROJECT_DIR$/app/Subscription.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php" />
         <option value="$PROJECT_DIR$/app/Mailers/AppMailer.php" />
         <option value="$PROJECT_DIR$/resources/views/email/reject.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/SubscriptionRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/email/confirm.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/head.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/scripts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/head.blade.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/SubscriptionRequest.php" />
+        <option value="$PROJECT_DIR$/resources/views/signup2.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -173,14 +177,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="email" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -195,6 +191,100 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Requests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -206,14 +296,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../auth/app/Http/Controllers/Auth/AuthController.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unifysite" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/errors" />
       <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources/views/errors" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/email" />
       <recent name="$PROJECT_DIR$/resources/assets/js/libs" />
       <recent name="$PROJECT_DIR$/resources/assets/css/libs" />
@@ -303,128 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/flash.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5877778">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.04777778">
-          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dmca-app/resources/views/emails/dmca.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12777779">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <marker date="1453487765000" expanded="true" signature="49:83" placeholder=" @see \Illuminate\Mail\Mailer ..." />
-            <marker date="1453487765000" expanded="true" signature="111:296" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="121:205" placeholder=" Get the registered name of the component. ..." />
-            <marker date="1453487765000" expanded="true" signature="257:294" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59555554">
-          <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
-          <folding>
-            <marker date="1453487765000" expanded="false" signature="39:501" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="560:13084" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="570:664" placeholder=" The view factory instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="697:770" placeholder=" The Swift Mailer instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="803:911" placeholder=" The event dispatcher instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="945:1017" placeholder=" The global from address and name. ..." />
-            <marker date="1453487765000" expanded="true" signature="1049:1119" placeholder=" The global to address and name. ..." />
-            <marker date="1453487765000" expanded="true" signature="1149:1251" placeholder=" The IoC container instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="1288:1380" placeholder=" The queue implementation. ..." />
-            <marker date="1453487765000" expanded="true" signature="1413:1479" placeholder=" Array of failed recipients. ..." />
-            <marker date="1453487765000" expanded="true" signature="1528:1762" placeholder=" Create a new Mailer instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="1860:1967" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="1976:2120" placeholder=" Set the global from address and name. ..." />
-            <marker date="1453487765000" expanded="true" signature="2177:2239" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="2248:2390" placeholder=" Set the global to address and name. ..." />
-            <marker date="1453487765000" expanded="true" signature="2445:2505" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="2514:2661" placeholder=" Send a new message when only a raw text part. ..." />
-            <marker date="1453487765000" expanded="true" signature="2705:2778" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="2787:2959" placeholder=" Send a new message when only a plain part. ..." />
-            <marker date="1453487765000" expanded="true" signature="3018:3095" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="3104:3282" placeholder=" Send a new message using a view. ..." />
-            <marker date="1453487765000" expanded="true" signature="3340:4369" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="4180:4262" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="4378:4599" placeholder=" Queue a new e-mail message for sending. ..." />
-            <marker date="1453487765000" expanded="true" signature="4673:4854" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="4863:5098" placeholder=" Queue a new e-mail message for sending on the given queue. ..." />
-            <marker date="1453487765000" expanded="true" signature="5167:5241" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="5250:5581" placeholder=" Queue a new e-mail message for sending on the given queue. ..." />
-            <marker date="1453487765000" expanded="true" signature="5650:5726" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="5735:6001" placeholder=" Queue a new e-mail message for sending after (n) seconds. ..." />
-            <marker date="1453487765000" expanded="true" signature="6083:6273" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="6282:6562" placeholder=" Queue a new e-mail message for sending after (n) seconds on the given queue. ..." />
-            <marker date="1453487765000" expanded="true" signature="6639:6721" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="6730:6847" placeholder=" Build the callable for a queued e-mail job. ..." />
-            <marker date="1453487765000" expanded="true" signature="6902:7056" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="6954:6993" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="7065:7222" placeholder=" Handle a queued e-mail message job. ..." />
-            <marker date="1453487765000" expanded="true" signature="7277:7398" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="7407:7527" placeholder=" Get the true callable for a queued e-mail message. ..." />
-            <marker date="1453487765000" expanded="true" signature="7583:7776" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="7660:7734" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="7785:7927" placeholder=" Force the transport to re-connect. ..." />
-            <marker date="1453487765000" expanded="true" signature="7972:8041" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="8050:8291" placeholder=" Add the content to a given message. ..." />
-            <marker date="1453487765000" expanded="true" signature="8365:8835" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="8399:8482" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="8513:8659" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="8688:8828" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="8844:9004" placeholder=" Parse the given view name or array. ..." />
-            <marker date="1453487765000" expanded="true" signature="9046:10004" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="9084:9133" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="9432:9488" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="9768:9935" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="9789:9924" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="10013:10124" placeholder=" Send a Swift Message instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="10176:10368" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="10211:10290" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="10377:10593" placeholder=" Call the provided message builder. ..." />
-            <marker date="1453487765000" expanded="true" signature="10658:10968" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="10708:10773" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="10811:10890" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="10977:11068" placeholder=" Create a new message instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="11109:11582" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="11467:11549" placeholder="..." />
-            <marker date="1453487765000" expanded="true" signature="11591:11713" placeholder=" Render the given view. ..." />
-            <marker date="1453487765000" expanded="true" signature="11760:11831" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="11840:11941" placeholder=" Get the view factory instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="11980:12021" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="12030:12110" placeholder=" Get the Swift Mailer instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="12149:12190" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="12199:12276" placeholder=" Get the array of failed recipients. ..." />
-            <marker date="1453487765000" expanded="true" signature="12309:12361" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="12370:12478" placeholder=" Set the Swift Mailer instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="12523:12566" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="12575:12705" placeholder=" Set the queue manager instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="12758:12824" placeholder="{...}" />
-            <marker date="1453487765000" expanded="true" signature="12833:12974" placeholder=" Set the IoC container instance. ..." />
-            <marker date="1453487765000" expanded="true" signature="13031:13082" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Queue/Queue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25555557">
@@ -472,6 +441,140 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="639" column="20" selection-start-line="639" selection-start-column="20" selection-end-line="639" selection-end-column="20" />
+          <folding>
+            <marker date="1451148373000" expanded="false" signature="9:234" placeholder="..." />
+            <marker date="1451148373000" expanded="false" signature="299:441" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="446:473" placeholder=" @group time-sensitive ..." />
+            <marker date="1451148373000" expanded="true" signature="521:53480" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="605:1713" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="1069:1080" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="1405:1476" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="1569:1580" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="1767:2041" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="2103:2459" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="2171:2452" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="2549:3036" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="3120:3630" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="3706:4174" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="4239:4681" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="4762:5441" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="5510:6143" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="6230:7588" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="6327:6696" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="6389:6695" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="7658:9751" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="7696:8859" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="7746:8858" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="7892:8373" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="8081:8149" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="8157:8359" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="8381:8848" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="8557:8625" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="8633:8834" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="9828:10251" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="10365:11469" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="10424:10644" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="10530:10643" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="11551:12884" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="11610:11830" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="11716:11829" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="13008:14240" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="13067:13364" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="13131:13363" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="14343:15947" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="14402:14699" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="14466:14698" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="16016:16419" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="16482:17059" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="16648:17052" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="17136:17478" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="17566:17765" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="17836:18182" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="18247:18945" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="19008:19613" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="19677:20275" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="20369:20829" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="20916:21292" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="21356:22636" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="22701:23885" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="23951:25139" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="25221:26114" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="26217:28450" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="28566:30716" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="30805:31356" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="31439:33360" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="33453:35250" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="33549:33977" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="33622:33976" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="33863:33966" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="35335:36958" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="35373:35751" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="35434:35750" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="35637:35740" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="37046:38641" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="37162:37821" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="37244:37820" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="37423:37810" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="37447:37535" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="37559:37648" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="37672:37797" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="38708:39157" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="38746:38963" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="38807:38962" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="39226:40051" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="39264:39571" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="39325:39570" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="40102:40882" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="40198:40440" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="40271:40439" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="40942:43015" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="40980:41563" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="41041:41562" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="41091:41286" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="41330:41552" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="43074:44287" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="43132:43526" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="43230:43525" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="44355:46444" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="44413:44807" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="44511:44806" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="46493:46655" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="46734:47003" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="47055:47225" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="47278:48381" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="47312:48010" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="47331:47634" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="47483:47619" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="47655:47814" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="47835:47999" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="48432:49655" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="48466:49149" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="48485:48788" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="48637:48773" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="48809:48953" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="48974:49138" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="49716:50520" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="49750:50247" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="49769:50089" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="49894:50074" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="50110:50236" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="50593:50818" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="50827:50874" placeholder=" @dataProvider getTrustedProxyData ..." />
+            <marker date="1451148373000" expanded="true" signature="50964:51201" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="51244:51490" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="51272:51482" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="51499:51547" placeholder=" @dataProvider getXForwardedForData ..." />
+            <marker date="1451148373000" expanded="true" signature="51640:52007" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="51774:51845" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="52051:52260" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="52079:52252" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="52322:52579" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="52657:53478" placeholder="{...}" />
+            <marker date="1451148373000" expanded="true" signature="52750:53245" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="52769:53095" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="52894:53080" placeholder="..." />
+            <marker date="1451148373000" expanded="true" signature="53116:53234" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -717,25 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <marker date="1453848462000" expanded="true" signature="32:1544" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="39:325" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="332:1536" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="386:1233" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="414:1226" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="450:913" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="607:833" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="972:1215" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="1012:1199" placeholder="..." />
-            <marker date="1453848462000" expanded="true" signature="1258:1287" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5366667">
@@ -779,23 +863,6 @@
             <marker date="1453751035000" expanded="true" signature="653:1091" placeholder="..." />
             <marker date="1453751035000" expanded="true" signature="1151:1574" placeholder="..." />
             <marker date="1453751035000" expanded="true" signature="1670:1721" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/signup.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12777779">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <marker date="1453930578000" expanded="true" signature="39:1600" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="143:1596" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="229:1372" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="266:603" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="692:1042" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="1130:1357" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="1417:1584" placeholder="..." />
-            <marker date="1453930578000" expanded="true" signature="1472:1569" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2658,20 +2725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4377778">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1454236900000" expanded="true" signature="44:192" placeholder="..." />
-            <marker date="1454236900000" expanded="true" signature="241:745" placeholder="{...}" />
-            <marker date="1454236900000" expanded="true" signature="275:318" placeholder="{...}" />
-            <marker date="1454236900000" expanded="true" signature="401:571" placeholder="{...}" />
-            <marker date="1454236900000" expanded="true" signature="613:741" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mailers/AppMailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6166667">
@@ -2703,21 +2756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56222224">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <marker date="1453936496000" expanded="false" signature="9:383" placeholder="..." />
-            <marker date="1453936496000" expanded="true" signature="398:446" placeholder="..." />
-            <marker date="1453936496000" expanded="true" signature="416:445" placeholder="..." />
-            <marker date="1453936496000" expanded="true" signature="452:829" placeholder="..." />
-            <marker date="1453936496000" expanded="true" signature="846:1130" placeholder="..." />
-            <marker date="1453936496000" expanded="true" signature="886:1129" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/email/confirm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35777777">
@@ -2731,21 +2769,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1580756">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38333333">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4888889">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+          <folding>
+            <marker date="1454803134000" expanded="true" signature="41:448" placeholder="/*...*/" />
+            <marker date="1454803134000" expanded="true" signature="471:4992" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/signup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5877778">
+          <caret line="23" column="148" selection-start-line="23" selection-start-column="114" selection-end-line="23" selection-end-column="148" />
+          <folding>
+            <marker date="1453930578000" expanded="true" signature="39:1600" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="143:1596" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="229:1372" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="266:603" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="692:1042" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="1130:1357" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="1417:1584" placeholder="..." />
+            <marker date="1453930578000" expanded="true" signature="1472:1569" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33222222">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12777779">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1454798758000" expanded="false" signature="9:383" placeholder="..." />
+            <marker date="1454798758000" expanded="true" signature="398:446" placeholder="..." />
+            <marker date="1454798758000" expanded="true" signature="416:445" placeholder="..." />
+            <marker date="1454798758000" expanded="true" signature="452:829" placeholder="..." />
+            <marker date="1454798758000" expanded="true" signature="846:1130" placeholder="..." />
+            <marker date="1454798758000" expanded="true" signature="886:1129" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43444446">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <marker date="1454794158000" expanded="true" signature="44:192" placeholder="..." />
+            <marker date="1454794158000" expanded="true" signature="241:746" placeholder="{...}" />
+            <marker date="1454794158000" expanded="true" signature="275:319" placeholder="{...}" />
+            <marker date="1454794158000" expanded="true" signature="402:572" placeholder="{...}" />
+            <marker date="1454794158000" expanded="true" signature="614:742" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/SubscriptionRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28444445">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.2822222">
+          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
           <folding>
-            <element signature="e#37#67#0#PHP" expanded="true" />
+            <marker date="1454804018000" expanded="true" signature="41:254" placeholder="..." />
+            <marker date="1454804018000" expanded="true" signature="297:1757" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="374:419" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="427:525" placeholder=" Determine if the user is authorized to make this request. ..." />
+            <marker date="1454804018000" expanded="true" signature="559:592" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="601:694" placeholder=" Get the validation rules that apply to the request. ..." />
+            <marker date="1454804018000" expanded="true" signature="724:896" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="747:888" placeholder="..." />
+            <marker date="1454804018000" expanded="true" signature="959:1755" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="1089:1635" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="1239:1340" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="1357:1623" placeholder="{...}" />
+            <marker date="1454804018000" expanded="true" signature="1693:1746" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/signup2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6388889">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding>
+            <marker date="1454804541000" expanded="true" signature="39:2630" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="143:2626" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="157:200" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="234:2585" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="277:967" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="364:833" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="1023:1387" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="1442:1814" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="1869:2098" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="2151:2357" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="2175:2338" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="2388:2570" placeholder="..." />
+            <marker date="1454804541000" expanded="true" signature="2444:2551" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

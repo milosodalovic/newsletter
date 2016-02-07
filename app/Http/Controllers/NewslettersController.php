@@ -15,7 +15,7 @@ class NewslettersController extends Controller
 
     public function register()
     {
-        return view('signup');
+        return view('signup2');
     }
 
     public function postRegister(SubscriptionRequest $request, AppMailer $mailer)
